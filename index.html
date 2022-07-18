@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB GAME II</title>
+  </head>
+  <body>
+    <h1>쿵쿵따 게임에 오신 걸 환영합니다.</h1>
+    <dl>
+      <dt>
+        <h3>게임방법</h3>
+      </dt>
+      <dd>
+        <h4>
+          참가자 인원수는 10명 제한이며, 마지막 참가자의 제시어는 첫번째
+          참가자가 이어받습니다.
+        </h4>
+      </dd>
+      <dd>
+        <h4>
+          모든 제시어는 세글자여야만 하며 앞에서 제시한 글자의 마지막 글자를
+          첫글자로 하여 새로운 제시어를 입력해야 합니다.
+        </h4>
+      </dd>
+      <dd>
+        <h4>두음법칙은 허용되지 않습니다.</h4>
+      </dd>
+    </dl>
+    <button class="startBtn">시작하기</button>
+    <div>참가자 수 : <span id="number"></span></div>
+    <div><span id="order">1</span> 번 참가자</div>
+    <div>
+      제시어 :
+      <span id="word"></span>
+    </div>
+    <input type="text" placeholder="제시어를 입력해주세요" />
+    <button class="inputBtn">입력</button>
+    <script src="js.js"></script>
+  </body>
+</html>
